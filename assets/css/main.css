@@ -1666,7 +1666,7 @@ input, select, textarea {
 		}
 		#cap_pic-img{
   		height:10vw;
-  		width:19.15vw;
+  		width:10vw;
 		}
 		#cap_title-subheader{
   		font-size:1vw;
@@ -1678,13 +1678,13 @@ input, select, textarea {
 		}
 		#cap_header-titles{
   		width:65%;
-  		margin-left:10%;
+  		margin-left:1%;
   		text-align: left;
   		float: left;
 		}
 		#cap_header-image{
   		width:20%;
-  		margin-right:5%;
+  		margin-right:1%;
   		text-align:right;
-   		float: left;
+   		float: right;
 		}

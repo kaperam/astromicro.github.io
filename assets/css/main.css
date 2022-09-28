@@ -1661,7 +1661,7 @@ input, select, textarea {
 		}
 
 		#cap_tip-title{
-  		font-size:1.5vw;
+  		font-size:1.3vw;
   		margin-bottom:1%;
 		}
 		#cap_pic-img{
@@ -1674,7 +1674,6 @@ input, select, textarea {
 			vertical-align:middle;
 		}
 		#cap_top-title{
-  		/*text-transform:capitalize;*/
   		line-height:normal;
   		text-align:right;
 		}
@@ -1684,11 +1683,10 @@ input, select, textarea {
   		text-align: left;
   		float: left;
 			margin-left:3%;
-			vertical-align:middle;
 		}
 		#cap_header-image{
   		width:20%;
-  		margin-right:3%;
+  		margin-right:5%;
   		text-align:right;
    		float: right;
 			vertical-align:middle;

@@ -1661,18 +1661,18 @@ input, select, textarea {
 		}
 
 		#cap_tip-title{
-  		font-size:1.3rem;
-  		margin-bottom:1%;
+  		font-size:1.5vw;
+  		margin-bottom:0%;
 		}
 		#cap_pic-img{
-  		height:7rem;
-  		width:7rem;
+  		height:10vw;
+  		width:10vw;
 		}
 		#cap_title-subheader{
-  		font-size:1rem;
-			margin-bottom:1.5%;
+  		font-size:1vw;
 		}
 		#cap_top-title{
+  		/*text-transform:capitalize;*/
   		line-height:normal;
   		text-align:right;
 		}
@@ -1681,7 +1681,6 @@ input, select, textarea {
   		margin-left:1%;
   		text-align: left;
   		float: left;
-			margin-left:3%;
 		}
 		#cap_header-image{
   		width:20%;

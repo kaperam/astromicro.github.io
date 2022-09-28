@@ -1678,11 +1678,12 @@ input, select, textarea {
   		text-align:right;
 		}
 		#cap_header-titles{
-  		width:65%;
+  		width:75%;
   		margin-left:1%;
   		text-align: left;
   		float: left;
 			margin-left:3%;
+			vertical-align:middle;
 		}
 		#cap_header-image{
   		width:20%;

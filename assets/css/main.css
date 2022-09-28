@@ -1659,3 +1659,32 @@ input, select, textarea {
 		body.is-preload #footer {
 			opacity: 0;
 		}
+
+		#cap_tip-title{
+  		font-size:4.5vw;
+  		margin-bottom:0%;
+		}
+		#cap_pic-img{
+  		height:10vw;
+  		width:19.15vw;
+		}
+		#cap_title-subheader{
+  		font-size:2vw;
+		}
+		#cap_top-title{
+  		text-transform:capitalize;
+  		line-height:normal;
+  		text-align:right;
+		}
+		#cap_header-titles{
+  		width:65%;
+  		margin-left:10%;
+  		text-align: left;
+  		float: left;
+		}
+		#cap_header-image{
+  		width:20%;
+  		margin-right:5%;
+  		text-align:right;
+   		float: left;
+		}

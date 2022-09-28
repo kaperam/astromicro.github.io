@@ -1662,11 +1662,11 @@ input, select, textarea {
 
 		#cap_tip-title{
   		font-size:1.5vw;
-  		margin-bottom:0%;
+  		margin-bottom:5%;
 		}
 		#cap_pic-img{
-  		height:5vw;
-  		width:5vw;
+  		height:10vw;
+  		width:10vw;
 		}
 		#cap_title-subheader{
   		font-size:1vw;

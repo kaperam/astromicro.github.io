@@ -1670,6 +1670,7 @@ input, select, textarea {
 		}
 		#cap_title-subheader{
   		font-size:1vw;
+			margin-bottom:3%;
 		}
 		#cap_top-title{
   		/*text-transform:capitalize;*/

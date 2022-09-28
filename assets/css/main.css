@@ -1662,11 +1662,11 @@ input, select, textarea {
 
 		#cap_tip-title{
   		font-size:1.5vw;
-  		margin-bottom:5%;
+  		margin-bottom:1%;
 		}
 		#cap_pic-img{
-  		height:10vw;
-  		width:10vw;
+  		height:7vw;
+  		width:7vw;
 		}
 		#cap_title-subheader{
   		font-size:1vw;
@@ -1681,6 +1681,7 @@ input, select, textarea {
   		margin-left:1%;
   		text-align: left;
   		float: left;
+			margin-left:3%;
 		}
 		#cap_header-image{
   		width:20%;

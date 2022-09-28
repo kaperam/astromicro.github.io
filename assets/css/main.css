@@ -1665,13 +1665,12 @@ input, select, textarea {
   		margin-bottom:1%;
 		}
 		#cap_pic-img{
-  		height:5rem;
-  		width:5rem;
+  		height:7rem;
+  		width:7rem;
 		}
 		#cap_title-subheader{
   		font-size:1rem;
 			margin-bottom:1.5%;
-			vertical-align:middle;
 		}
 		#cap_top-title{
   		line-height:normal;
@@ -1689,5 +1688,4 @@ input, select, textarea {
   		margin-right:5%;
   		text-align:right;
    		float: right;
-			vertical-align:middle;
 		}

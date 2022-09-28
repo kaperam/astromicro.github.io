@@ -1687,4 +1687,5 @@ input, select, textarea {
   		margin-right:1%;
   		text-align:right;
    		float: right;
+			vertical-align:middle;
 		}

@@ -1661,15 +1661,15 @@ input, select, textarea {
 		}
 
 		#cap_tip-title{
-  		font-size:1.3vw;
+  		font-size:1.3rem;
   		margin-bottom:1%;
 		}
 		#cap_pic-img{
-  		height:7vw;
-  		width:7vw;
+  		height:7rem;
+  		width:7rem;
 		}
 		#cap_title-subheader{
-  		font-size:1vw;
+  		font-size:1rem;
 			margin-bottom:1.5%;
 			vertical-align:middle;
 		}

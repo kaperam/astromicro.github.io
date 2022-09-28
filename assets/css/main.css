@@ -1660,31 +1660,23 @@ input, select, textarea {
 			opacity: 0;
 		}
 
-		#cap_tip-title{
-  		font-size:1.5vw;
-  		margin-bottom:0%;
-		}
-		#cap_pic-img{
-  		height:5vw;
-  		width:5vw;
-		}
-		#cap_title-subheader{
-  		font-size:1vw;
-		}
-		#cap_top-title{
-  		/*text-transform:capitalize;*/
-  		line-height:normal;
-  		text-align:right;
-		}
-		#cap_header-titles{
-  		width:75%;
-  		margin-left:1%;
-  		text-align: left;
-  		float: left;
-		}
-		#cap_header-image{
-  		width:20%;
-  		margin-right:5%;
-  		text-align:right;
-   		float: right;
-		}
+		.container {
+		        display: flex;
+		        align-items: center;
+		        justify-content: center
+		      }
+
+		img {
+		        max-width: 100%
+		      }
+
+	 .cap_image {
+		        flex-basis: 50%;
+		        order: 2;
+		      }
+
+	 .cap_text {
+		        font-size: 20px;
+		        padding-left: 20px;
+		        padding-right: 20px;
+		      }

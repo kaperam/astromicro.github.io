@@ -33,6 +33,50 @@
 		        padding-right: 20px;
 		      }
 		    </style>
+<!-- style for blog containers https://grid.layoutit.com/ -->
+<style>
+.container {  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 4px 4px;
+  grid-auto-flow: row dense;
+  grid-template-areas:
+    "uno dos dos dos doce doce"
+    "uno tres tres cinco doce doce"
+    "cuatro tres tres cinco trece catorce"
+    "seis seis seis cinco quince catorce"
+    "ocho ocho ocho siete quince catorce"
+    "once diez nueve siete quince dieciocho"
+    "dieciseis dieciseis diecisiete diecisiete diecisiete diecisiete"
+    "dieciseis dieciseis diecinueve diecinueve veintiuno veintidos"
+    "veinte veinte diecinueve diecinueve veintitres veinticuatro";
+}
+
+.uno { grid-area: uno; }
+.dos { grid-area: dos; }
+.tres { grid-area: tres; }
+.cuatro { grid-area: cuatro; }
+.cinco { grid-area: cinco; }
+.seis { grid-area: seis; }
+.siete { grid-area: siete; }
+.ocho { grid-area: ocho; }
+.nueve { grid-area: nueve; }
+.diez { grid-area: diez; }
+.once { grid-area: once; }
+.doce { grid-area: doce; }
+.trece { grid-area: trece; }
+.catorce { grid-area: catorce; }
+.quince { grid-area: quince; }
+.dieciseis { grid-area: dieciseis; }
+.diecisiete { grid-area: diecisiete; }
+.dieciocho { grid-area: dieciocho; }
+.diecinueve { grid-area: diecinueve; }
+.veinte { grid-area: veinte; }
+.veintiuno { grid-area: veintiuno; }
+.veintidos { grid-area: veintidos; }
+.veintitres { grid-area: veintitres; }
+.veinticuatro { grid-area: veinticuatro; }
+</style>
 
 
 	</head>
@@ -320,12 +364,38 @@
 
 						<!-- Blogs -->
 							<article id="blogs">
-								<h2 class="major">Work</h2>
+								<h2 class="major">Blogs</h2>
 								<span class="image main"><img src="images/pic02.jpg" alt="" /></span>
-								<p>Cada video está acompañado por un <a href="#blogs">blog</a> que profundiza y respalda cada frase del guión.</p>
+								<p>Cada capítulo de AstroMicro está acompañado por un blog que profundiza los conceptos abordados y respalda cada frase del guión.</p>
+								<div class="container">
+								  <div class="uno"></div>
+								  <div class="dos"></div>
+								  <div class="tres"></div>
+								  <div class="cuatro"></div>
+								  <div class="cinco"></div>
+								  <div class="seis"></div>
+								  <div class="siete"></div>
+								  <div class="ocho"></div>
+								  <div class="nueve"></div>
+								  <div class="diez"></div>
+								  <div class="once"></div>
+								  <div class="doce"></div>
+								  <div class="trece"></div>
+								  <div class="catorce"></div>
+								  <div class="quince"></div>
+								  <div class="dieciseis"></div>
+								  <div class="diecisiete"></div>
+								  <div class="dieciocho"></div>
+								  <div class="diecinueve"></div>
+								  <div class="veinte"></div>
+								  <div class="veintiuno"></div>
+								  <div class="veintidos"></div>
+								  <div class="veintitres"></div>
+								  <div class="veinticuatro"></div>
+								</div>
 								</article>
 
-						<!-- Proceso-->
+						<!-- Proceso  un <a href="#blogs">blog</a>-->
 							<article id="proceso">
 								<h2 class="major">Curriculm Vitæ</h2>
 								<span class="image main"><img src="images/picdustblack.jpg" alt="" /></span>
